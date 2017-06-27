@@ -1,0 +1,10 @@
+name = Islandora Datastream Downloads Report
+description = Provides a page and downloadable CSV of all Islandora object datastream downloads.
+core = 7.x
+package = Features
+dependencies[] = views
+dependencies[] = views_data_export
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = Downloads
+features_exclude[dependencies][ctools] = ctools

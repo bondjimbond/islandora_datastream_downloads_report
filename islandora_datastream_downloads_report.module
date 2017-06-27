@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Islandora Datastream Downloads Report feature.
+ */
+
+include_once 'islandora_datastream_downloads_report.features.inc';
